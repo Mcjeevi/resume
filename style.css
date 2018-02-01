@@ -1,0 +1,131 @@
+body {
+    position: relative;
+}
+body {
+    font-size: 14px;
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.75;
+    color: #333;
+    background: #fff;
+}
+.uc{
+    text-transform: uppercase;
+}
+#section1 {
+    padding-top: 50px;
+    height: 500px;
+    color: #fff;
+    background-color: #2D2E2E;
+    margin-top:  50px;
+}
+
+#section2 {
+    padding-top: 50px;
+    height: 200px;
+    color: #fff;
+    background-color: #2B2C2C;
+}
+
+#section3 {
+    padding-top: 50px;
+    height: 500px;
+    color: #fff;
+    background-color: #2D2E2E;
+}
+
+#section4 {
+    padding-top: 50px;
+    height: 300px;
+    color: #fff;
+    background-color: #2B2C2C;
+}
+
+#section5 {
+    padding-top: 50px;
+    height: 400px;
+    color: #fff;
+    background-color: #2D2E2E;
+}
+#section6 {
+    padding-top: 50px;
+    height: 500px;
+    color: #fff;
+    background-color: #2B2C2C;
+}
+#section7 {
+    padding-top: 50px;
+    height: 400px;
+    color: #fff;
+    background-color: #2D2E2E;
+}
+#section8 {
+    padding-top: 50px;
+    height: 200px;
+    color: #fff;
+    background-color: #2B2C2C;
+}
+#section9 {
+    padding-top: 50px;
+    height: 235px;
+    color: #fff;
+    background-color: #2D2E2E;
+}
+/*avatar Profile css*/
+.img-avatar img {
+    width:  100%;
+}
+
+.profile-img {
+    width:  70%;
+    margin:  auto;
+    border-radius:  50%;
+    overflow:  hidden;
+}
+.avatar-title .name {
+    font-size: 6rem;
+    display:  block;
+}
+
+span.subName {
+    font-size: 2rem;
+}
+.profile-title {
+    padding-top:  77px;
+}
+.profile-details ul li {
+    width:  25%;
+    display:  inline-block;
+    float:  left;
+}
+.profile-details ul li
+h5 {
+    text-transform:  uppercase;
+    font-weight:  bold;
+}
+.cls {
+    height:  100px;
+    border-left:  2px solid;
+    position: relative;
+    padding-top:  35px;
+}
+.point-dot{
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    left: -6px;
+    top: 42px;
+    border-radius: 50%;
+    background:  yellow;
+}
+.ed.branch span {
+    display:  block;
+}
+.listStyle{
+    list-style-type: circle;
+}
+ul.listStyle li {
+    padding: 10px 0;
+}
+.project {
+    padding: 15px 0;
+}
