@@ -48,7 +48,7 @@ body {
 }
 #section6 {
     padding-top: 50px;
-    height: 500px;
+    height: auto;
     color: #fff;
     background-color: #2B2C2C;
 }
@@ -83,12 +83,12 @@ body {
     margin-top: 10px;
 }
 .avatar-title .name {
-    font-size: 6rem;
+    font-size: 5.83vw;
     display:  block;
 }
 
 span.subName {
-    font-size: 2rem;
+    font-size: 1.94vw;
 }
 .profile-title {
     padding-top:  77px;
@@ -104,7 +104,7 @@ h5 {
     font-weight:  bold;
 }
 .cls {
-    height:  100px;
+    min-height:  100px;
     border-left:  2px solid;
     position: relative;
     padding-top:  35px;
@@ -129,4 +129,70 @@ ul.listStyle li {
 }
 .project {
     padding: 15px 0;
+}
+.details-li {
+    word-break: break-all;
+    padding: 0 5px;
+}
+@media (max-width: 1199px) {
+    body{
+        font-size: 20px;
+    }
+}
+@media (max-width: 991px) {
+    body{
+        font-size: 18px;
+    }
+}
+@media (max-width: 768px) {
+    #section1,#section2,#section3,#section4,#section5,#section6,#section7,#section8,#section9{
+        min-height: 300px;
+        height: auto;
+    }
+    #myNavbar{
+        float: none !important;
+    }
+    body{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 576px) {
+    #section1,#section2,#section3,#section4,#section5,#section6,#section7,#section8,#section9{
+        min-height: 300px;
+        height: auto;
+    }
+    .profile-title {
+        padding-top: 0px;
+    }
+    #myNavbar{
+        float: none !important;
+    }
+    body{
+        font-size: 14px;
+    }
+    span.subName,.lastname {
+        font-size: 24px;
+    }
+    .avatar-title .name {
+        font-size: 28px;
+        display: block;
+    }
+}
+
+
+
+@media (min-width: 1200px) {
+    #section1,#section2,#section3,#section4,#section5,#section6,#section7,#section8,#section9{
+        min-height: 300px;
+        height: auto;
+    }
+    body{
+        font-size: 26px;
+    }
+    h5{
+        font-size: 22px;
+    }
+    h6{
+        font-size: 20px;
+    }
 }
