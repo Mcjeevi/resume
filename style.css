@@ -80,6 +80,7 @@ body {
     margin:  auto;
     border-radius:  50%;
     overflow:  hidden;
+    margin-top: 10px;
 }
 .avatar-title .name {
     font-size: 6rem;
