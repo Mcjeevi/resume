@@ -8,68 +8,24 @@ body {
     color: #333;
     background: #fff;
 }
+.details-li h6{
+    font-size: 14px;
+}
 .uc{
     text-transform: uppercase;
 }
-#section1 {
+#section1,#section2,#section3,#section4,#section5,#section6,#section7,#section8,#section9{
     padding-top: 50px;
-    height: 500px;
+    min-height: 300px;
     color: #fff;
-    background-color: #2D2E2E;
-    margin-top:  50px;
 }
-
-#section2 {
-    padding-top: 50px;
-    height: 200px;
-    color: #fff;
+#section1,#section3,#section5,#section7,#section9 {
+    background-color: #2D2E2E;
+}
+#section2,#section4,#section6,#section8 {
     background-color: #2B2C2C;
 }
 
-#section3 {
-    padding-top: 50px;
-    height: 500px;
-    color: #fff;
-    background-color: #2D2E2E;
-}
-
-#section4 {
-    padding-top: 50px;
-    height: 300px;
-    color: #fff;
-    background-color: #2B2C2C;
-}
-
-#section5 {
-    padding-top: 50px;
-    height: 400px;
-    color: #fff;
-    background-color: #2D2E2E;
-}
-#section6 {
-    padding-top: 50px;
-    height: auto;
-    color: #fff;
-    background-color: #2B2C2C;
-}
-#section7 {
-    padding-top: 50px;
-    height: 400px;
-    color: #fff;
-    background-color: #2D2E2E;
-}
-#section8 {
-    padding-top: 50px;
-    height: 200px;
-    color: #fff;
-    background-color: #2B2C2C;
-}
-#section9 {
-    padding-top: 50px;
-    height: 235px;
-    color: #fff;
-    background-color: #2D2E2E;
-}
 /*avatar Profile css*/
 .img-avatar img {
     width:  100%;
@@ -134,17 +90,33 @@ ul.listStyle li {
     word-break: break-all;
     padding: 0 5px;
 }
-@media (max-width: 1199px) {
+
+/*Media Query css*/
+
+@media (max-width: 1200px) {
+    #section1,#section2,#section3,#section4,#section5,#section6,#section7,#section8,#section9{
+        min-height: 300px;
+        height: auto;
+    }
     body{
+        font-size: 26px;
+    }
+    .details-li h5{
+        font-size: 22px;
+    }
+    .details-li h6{
         font-size: 20px;
     }
 }
-@media (max-width: 991px) {
+@media (min-width: 992px) and (max-width: 1199px) {
     body{
         font-size: 18px;
     }
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
+    body{
+        font-size: 16px;
+    }
     #section1,#section2,#section3,#section4,#section5,#section6,#section7,#section8,#section9{
         min-height: 300px;
         height: auto;
@@ -155,8 +127,11 @@ ul.listStyle li {
     body{
         font-size: 14px;
     }
+    span.subName {
+        font-size: 22px;
+    }
 }
-@media screen and (max-width: 576px) {
+@media (min-width: 576px) and (max-width: 767px) {
     #section1,#section2,#section3,#section4,#section5,#section6,#section7,#section8,#section9{
         min-height: 300px;
         height: auto;
@@ -177,22 +152,38 @@ ul.listStyle li {
         font-size: 28px;
         display: block;
     }
+
+    .details-li h5{
+        font-size: 14px;
+    }
+    .details-li h6{
+        font-size: 14px;
+    }
+    .profile {
+        width: 50%;
+        float: right;
+    }
 }
-
-
-
-@media (min-width: 1200px) {
-    #section1,#section2,#section3,#section4,#section5,#section6,#section7,#section8,#section9{
-        min-height: 300px;
-        height: auto;
+@media (max-width: 575px)  {
+    .profile-details ul li {
+        width: 50%;
+    }
+    .details-li h5 {
+        font-size: 14px;
+    }
+    .details-li h6{
+        font-size: 12px;
     }
     body{
-        font-size: 26px;
+        font-size: 14px;
     }
-    h5{
+    .avatar-title .name {
+        font-size: 43px;
+    }
+    span.subName {
         font-size: 22px;
     }
-    h6{
-        font-size: 20px;
-    }
 }
+
+
+
