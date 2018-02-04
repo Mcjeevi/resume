@@ -46,8 +46,12 @@ body {
 span.subName {
     font-size: 1.94vw;
 }
-.profile-title {
-    padding-top:  77px;
+/*.profile-title {*/
+    /*padding-top:  77px;*/
+/*}*/
+div#section1 {
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 .profile-details ul li {
     width:  25%;
